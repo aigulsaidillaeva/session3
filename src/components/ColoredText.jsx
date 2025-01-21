@@ -13,7 +13,7 @@ const ColoredText = (props) => {
   return (
     <div>
       <p style={{ color: color }}>Этот текст меняет цвет!</p>
-      <button onClick={changeColor}>Сменить текст</button>
+      <button onClick={changeColor}>Сменить цвет</button>
     </div>
   );
 };
